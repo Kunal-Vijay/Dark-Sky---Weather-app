@@ -1,9 +1,10 @@
 import './App.css';
+import Topbuttons from './components/Topbuttons';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Dark Sky - Weather app</h1>
+    <div className="mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-gray-400">
+      <Topbuttons/>
     </div>
   );
 }
